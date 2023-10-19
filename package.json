@@ -1,0 +1,21 @@
+{
+  "name": "mockapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@graphql-tools/mock": "^9.0.0",
+    "@graphql-tools/schema": "^10.0.0",
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.9.4"
+  }
+}
