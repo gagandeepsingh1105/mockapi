@@ -6,6 +6,6 @@ const apollo = new ApolloServer({
     schema: schema,
 })
 
-const { url } = await startStandaloneServer(apollo, { listen: { port: 4000 } })
+const { url } = await startStandaloneServer(apollo, { listen: { port: 8080 } })
 console.log(`Server is running on ${url}`)
 
