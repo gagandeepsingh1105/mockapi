@@ -74,7 +74,7 @@ type Isolate  {
   typeDetails: String # Explaining duplicates? TODO: clairify
   # Outbreak: Link to related Outbreak? 
   #This is the variable that contains the cluster code. The cluster code is the ID for a cluster. 
-  cluster: Cluster # Lab cluster... could go on for years.
+  cluster: Cluster # Lab cluster..... could go on for years.
   # Comments
   comments: String 
   # NLEP: Acronym for... 
