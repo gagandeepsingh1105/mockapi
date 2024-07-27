@@ -4,9 +4,9 @@ ENV NODE_ENV development
 
 WORKDIR /app
 
-COPY package*.json ./
+COPY package.json ./
 
-RUN npm ci
+RUN npm i
 
 COPY ./schema.js .
 COPY ./server.js .
